@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	
+		<script type="text/javascript">
+			//先调用，在声明。
+			f("张三");
+			function test() {
+				alert("AAA");
+			}
+		</script>
+		
+		<script type="text/javascript">
+			var f = function(name) {
+				alert(name);
+			};			
+		</script>
+		<script type="text/javascript">
+	// 将有名字的函数赋值给变量f，因此test将会被忽略
+	var f = function test(name)
+	{
+		document.writeln('匿名函数<br />');
+		document.writeln('你好' + name);
+	};
+	f('yeeku');
+	// test函数并不存在，下面代码出现错误
+	test("abc");
+</script>
+
+		<!--
+		<script type="text/javascript">
+			var factorial = function(n) {
+				if( n == 1 ) return 1; 
+				return n * factorial(n - 1);
+			};
+			alert(factorial(6));
+		</script>
+		-->
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+.top {
+	width: 100%;
+	height: 50px;
+}
+
+.daohang {
+	width: 900px;
+	height: 29px;
+	float: right;
+}
+
+.daohang_menu {
+	width: 70px;
+	height: 29px;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.baidu {
+	width: 270px;
+	height: 129px;
+	margin: auto;
+}
+
+.baidu  img{
+	width: 270px;
+	height: 129px;
+	margin: 50px auto;
+}
+
+.input {
+	width: 640px;
+	height: 43px;
+	margin: 120px auto;
+	border: 1px solid blue;
+}
+
+.input #tex{
+	width: 500px;
+	height: 40px;
+	float: left;
+	border: none;
+}
+.input img{
+	width: 44px;
+	height: 40px;
+	float: left;
+}
+
+.input #sub{
+	width: 95px;
+	height: 42px;
+	float: left;
+	border: none;
+}
+
+<img id="pologo" alt="ProcessOn免费在线作图" src="/assets/imgs/logo_small.png">
